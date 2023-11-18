@@ -1,0 +1,63 @@
+#logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.logo-wa {
+    /* background-color: red; */
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+p.aodn {
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.logo-ig {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+
+}
+p.abcdef {
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    
+}
+
+/* .bckg {
+    background-color: aqua;
+} */
+
+#animatedButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 1s ease; 
+    border-radius: 50%;
+    height: 100px;
+}
+
+#animatedButton:hover {
+    background-color: cyan;
+}
+
+.lelah {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

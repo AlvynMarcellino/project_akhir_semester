@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>About Us - My Website</title>
+  <style>
+    p.gktau {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+    }
+
+    #carousel-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px; /* Set the maximum width of the carousel */
+            margin: auto;
+            overflow: hidden;
+        }
+
+        /* Styling for the images within the carousel */
+        .carousel-image {
+            width: 100%;
+            display: none; /* Initially hide all images */
+        }
+
+        /* Styling for navigation buttons */
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            cursor: pointer;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            outline: none;
+        }
+
+        .prev { left: 10px; }
+        .next { right: 10px; }
+
+        div {
+          padding-bottom: 50px;
+        }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="main-content">
+    <h2>About Us</h2>
+    <p class="gktau">i dont know how to explain what is Alvyn's Store, maybe we could call it a small online shop created to fulfill the requirements for creating my PAS</p>  
+  </section>
+
+  <div id="carousel-container">
+    <button class="prev" onclick="changeSlide(-1)">❮</button>
+    <button class="next" onclick="changeSlide(1)">❯</button>
+
+    <img class="carousel-image" src="C:\Users\vincr\OneDrive\Desktop\PROGRAM CODING\JAVA SCRIPT\project_cadangan_akhir_semester\assets\imek1.jpg" alt="Image 1">
+    <img class="carousel-image" src="C:\Users\vincr\OneDrive\Desktop\PROGRAM CODING\JAVA SCRIPT\project_cadangan_akhir_semester\assets\imek2.jpg" alt="Image 2">
+    <img class="carousel-image" src="C:\Users\vincr\OneDrive\Desktop\PROGRAM CODING\JAVA SCRIPT\project_cadangan_akhir_semester\assets\imek3.jpg" alt="Image 3">
+</div>
+
+  <footer>
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
+
+  <script src="about.js"></script>
+</body>
+</html>
